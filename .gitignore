@@ -13,8 +13,12 @@ bin/
 gen/
 out/
 
+# Library
+kiosk/build/
+
 # Gradle files
 .gradle/
+gradle/
 build/
 
 # Local configuration file (sdk path, etc)
