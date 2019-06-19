@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OverlayDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Dialog Start -->
+    <style name="CustomDialogView" parent="@android:style/Widget">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/round_border_top_bottom</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- Dialog End -->
+
+    <style name="DefaultMarginTextView" parent="@style/DefaultTextView">
+        <item name="android:layout_marginStart">@dimen/tv_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/tv_margin_end</item>
+    </style>
+
+    <style name="DefaultTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/blackish_grey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- View Start -->
+    <style name="ViewDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/lineDivider</item>
+    </style>
+    <!-- View End -->
+
+    <!-- EditText Start -->
+    <style name="DefaultEditText" parent="@android:style/Widget.EditText">
+        <item name="android:padding">5dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColorHint">@color/lineDivider</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_dim</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">12dp</item>
+    </style>
+    <!-- EditText End -->
+
+    <style name="GreenMarginButton" parent="@style/GreenButton">
+        <item name="android:layout_marginStart">@dimen/btn_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/btn_margin_end</item>
+    </style>
+
+    <style name="GreenButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/login_btn_bg</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

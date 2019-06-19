@@ -1,0 +1,9 @@
+<resources>
+    <!-- Password Dialog -->
+    <string name="alert_title_password">Password</string>
+    <string name="hint_enter_password">Enter password</string>
+    <string name="btn_close">X</string>
+    <string name="image_description">Image Description</string>
+    <string name="btn_done">Done</string>
+    <string name="prompt_enter_value">Enter Password</string>
+</resources>
